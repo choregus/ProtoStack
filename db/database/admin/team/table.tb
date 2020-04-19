@@ -1,0 +1,1 @@
+{"username":{"rows":{"0s":"Bob","1s":"Steve"},"type":"string","name":"username"},"password":{"rows":{"0s":"mary123","1s":"ilovecheese"},"type":"string","name":"password"},"email":{"rows":{"0s":"bobross@reddit.com","1s":"steve@reddit.com"},"type":"string","name":"email"}}

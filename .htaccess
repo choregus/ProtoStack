@@ -1,0 +1,15 @@
+## EXPIRES CACHING ##
+
+# Prevent file browsing
+Options -Indexes
+
+
+####### this is the code that does the rewrite stuff for the pages used in index.php
+
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule . index.php [L]
+</IfModule>

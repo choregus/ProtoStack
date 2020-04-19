@@ -1,0 +1,12 @@
+/* 
+
+Make any custom CSS tweaks here.
+
+*/
+
+hr {
+  height: 3px;
+  border: none;
+  color: #48A1DD;
+  background-color: #48A1DD;
+}
